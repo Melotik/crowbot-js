@@ -1,0 +1,1266 @@
+{
+    "name": "!\"Zecolik's server",
+    "region": "deprecated",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "『⭐』tickets",
+                "permissions": [
+                    {
+                        "roleName": "・Support test",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Gerant",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2100288
+                    },
+                    {
+                        "roleName": "・Support",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@staff",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "・Responsable",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "・Administrateur",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "『⚡』Staff Zone",
+                "permissions": [
+                    {
+                        "roleName": "・Responsable",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "・Support test",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@staff",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "・Administrateur",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "・Support",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2100288
+                    },
+                    {
+                        "roleName": "Gerant",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "╭・『📖』charte-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『📌』annonce-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『💬』tchat-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『👀』commande-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『⭐』tchat-haut-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『💾』calcul-stockage",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『📝』log-discord",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『🎱』black-list",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『📌』offre",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "╰・『👑』chose-a-réglé",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』Staff Zone",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Support test",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2100288
+                            },
+                            {
+                                "roleName": "Gerant",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Responsable",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "『🦅』réception",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "・Visiteur",
+                        "allow": 0,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2099264
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "╭・『📜』notre-pub",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🦅』réception",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Visiteur",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『🚀』réception",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🦅』réception",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "・Visiteur",
+                                "allow": 0,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "╰・『💻』panel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🦅』réception",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "・Visiteur",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "『⚡』annonce",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2099264
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "╭・『📖』𝘳𝘦𝘨𝘭𝘦𝘮𝘦𝘯𝘵",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』annonce",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『⚡』𝘢𝘯𝘯𝘰𝘯𝘤𝘦",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』annonce",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『🦪』perle-du-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』annonce",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "・Support test",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Support",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "・Administrateur",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@staff",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『📊』sondage",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』annonce",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "╰・『🎁』concours",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『⚡』annonce",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "『🌱』offre serveur",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2099264
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "╭・『🪨』mcbedrock",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌱』offre serveur",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "╰・『🤖』bot-discord",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌱』offre serveur",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "『🌍』communauté",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2099265
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "╭・『🌍』général",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌍』communauté",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2132033
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『📸』média",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌍』communauté",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099265
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『🤖』commandes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌍』communauté",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⎮・『💡』suggestions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌍』communauté",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099265
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "╰・『🏹』entraide",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "『🌍』communauté",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099265
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🎫・support",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2099264
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "⎮・『🚀』support",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "🎫・support",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "╭・『🎟』ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫・support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2099264
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "╰・『💀』attente staff",
+                        "bitrate": 64000,
+                        "userLimit": 1,
+                        "parent": "🎫・support",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "・Visiteur",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2099264
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "raidprotect-logs",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2100288
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Gerant",
+            "color": "#00ffdc",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "・Responsable",
+            "color": "#ff0f00",
+            "hoist": true,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "・Administrateur",
+            "color": "#923200",
+            "hoist": true,
+            "permissions": 1610088385,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "*",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 2147483647,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "・Support",
+            "color": "#277ecd",
+            "hoist": true,
+            "permissions": 267907015,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "・Support test",
+            "color": "#277ecd",
+            "hoist": true,
+            "permissions": 267907009,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "・développeur",
+            "color": "#d6680e",
+            "hoist": true,
+            "permissions": 104189441,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "@staff",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189441,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "・BOT",
+            "color": "#17ac86",
+            "hoist": true,
+            "permissions": 104189449,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "・Client",
+            "color": "#25c059",
+            "hoist": true,
+            "permissions": 104189441,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "・Visiteur",
+            "color": "#7e9091",
+            "hoist": true,
+            "permissions": 104189441,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189441,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1659262100371,
+    "guildID": "1002609627025899550",
+    "id": "1003242705633017864"
+}

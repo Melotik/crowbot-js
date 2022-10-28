@@ -1,0 +1,2151 @@
+{
+    "name": "Solving | Shop #Retour",
+    "region": "deprecated",
+    "verificationLevel": "HIGH",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "🔔・Staff",
+                "permissions": [
+                    {
+                        "roleName": "@admin",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Owner",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Solving 💳",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "Co Owner [💎]",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Staff",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "Administrateur [🛡️]",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Helpeur ⌚",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔔・annonce",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "📌・vocal staff",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🔔・Staff",
+                        "permissions": [
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "💬・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🦅・vocal haut staff",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🔔・Staff",
+                        "permissions": [
+                            {
+                                "roleName": "Owner",
+                                "allow": 1048576,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1048576,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1048576,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1048576,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1048576
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1048576,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "📜・commande-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "test",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🔔・Staff",
+                        "permissions": [
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "🚀・chat-haut-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔗・log-discord",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⚡・log-raid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔔・Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Owner",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@admin",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Helpeur ⌚",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Administrateur [🛡️]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Solving 💳",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "📜 —> information",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 64
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔔・annonce",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co Owner [💎]",
+                                "allow": 2048,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "👋・bienvenue",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔮・rôle",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📖・règlement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁・reward-invites",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "❤・boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤺・scam-list",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔴・pub",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁・giveaway",
+                        "nsfw": true,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2098176,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎫・ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-24",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📜 —> information",
+                        "topic": "Claim ou autre",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "💸 —> SHOP",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 64
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🧿・tarif-nitro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🦅・vendeur nitro",
+                                "allow": 805829713,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🧿・proofs-nitro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💳・cb-et-compte",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💳・proofs-cb",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "claimed 🎁",
+                                "allow": 2048,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "Clients",
+                                "allow": 2048,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⭐・vip",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🪄・avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Clients",
+                                "allow": 2048,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "claimed 🎁",
+                                "allow": 2048,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "❤・vouche",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "claimed 🎁",
+                                "allow": 2048,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Clients",
+                                "allow": 2048,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🪙•model-3d",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💸 —> SHOP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2427904,
+                                "deny": 805498961
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "💬 —> Géneral",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 64
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "💬・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💬 —> Géneral",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📷・médias",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💬 —> Géneral",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖・cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💬 —> Géneral",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "pp-gif",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💬 —> Géneral",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2098176,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "👑・VIP",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "Membres",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "👑・VIP",
+                        "allow": 1024,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "discord-token-tool",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "wallet-miner",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "proxies-scaper",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "wifi-password",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "discord-clone-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "xray-paladium",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "bypass-link",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "dos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ip-logger",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "3000-ebooks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ddos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "dox",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "proxy",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "localiser-ip",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "fake-pronote",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "gen-token",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "tiktok",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "hazard-nuker",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "3k-techniques",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "gen-nitro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "gen-carte-cadeaux",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "gen-cb",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👑・VIP",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membres",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "👑・VIP",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "raidprotect-logs",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "raidprotect-logs",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Owner",
+            "color": "#0a0b0b",
+            "hoist": true,
+            "permissions": 2146959359,
+            "mentionable": true,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "@admin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189513,
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "Solving 💳",
+            "color": "#92e0ac",
+            "hoist": true,
+            "permissions": 104189513,
+            "mentionable": true,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Co Owner [💎]",
+            "color": "#52130f",
+            "hoist": true,
+            "permissions": 1341521857,
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "Administrateur [🛡️]",
+            "color": "#d7342a",
+            "hoist": true,
+            "permissions": 1342177219,
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "BOT",
+            "color": "#1a7939",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": true,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Helpeur ⌚",
+            "color": "#e70000",
+            "hoist": true,
+            "permissions": 1342041793,
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff",
+            "color": "#25c059",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "King goolag 👊",
+            "color": "#86211a",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": true,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "🦅・vendeur nitro",
+            "color": "#843da4",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "👑・VIP",
+            "color": "#e4b400",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "claimed 🎁",
+            "color": "#93bfe6",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": true,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "POULAWELDEK (SOUS MERDE)",
+            "color": "#25c059",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Clients",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Amie(s)",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Membres",
+            "color": "#b9bbbe",
+            "hoist": true,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Membres",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 2147483647,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "giveaway",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1659257899062,
+    "guildID": "967432394250551366",
+    "id": "1003225084065873928",
+    "iconURL": "https://cdn.discordapp.com/icons/967432394250551366/9864b9897643f1baa78f534ef8b457a1.webp",
+    "splashURL": "https://cdn.discordapp.com/splashes/967432394250551366/ea9f3dd91e6b9154c0b66bb94b9acf44.webp"
+}
